@@ -19,7 +19,10 @@ from matplotlib import pyplot as plt
 from sklearn.model_selection import cross_val_score, GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import make_scorer, mean_absolute_error, mean_squared_error, r2_score
-from sklearn.pipeline import Pipeline# 3. Analyze the Data## 3.1 Try Linear Regression as a Start
+from sklearn.pipeline import Pipeline
+
+# 3. Analyze the Data
+## 3.1 Try Linear Regression as a Start
 
 from sklearn import preprocessing
 
