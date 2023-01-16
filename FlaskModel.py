@@ -181,10 +181,3 @@ from sklearn.linear_model import LogisticRegression
 #model.fit(X_train, y)
 with open('model.pkl', 'wb') as f:
     pickle.dump(model, f)
-
-
-# In[ ]:
-
-
-
-
